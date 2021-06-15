@@ -8,6 +8,9 @@
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.21.1",
     "husky": "^6.0.0",
+    "netlify-cli": "^3.37.31",
+    "prettier": "^2.3.1",
+    "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
@@ -17,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy -p"
   },
   "eslintConfig": {
     "extends": [
