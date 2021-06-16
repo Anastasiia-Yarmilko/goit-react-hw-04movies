@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Container from '../Container';
+import Container from '../Container/Container';
 import movieApi from '../../services/movieApi';
 import PropTypes from 'prop-types';
 

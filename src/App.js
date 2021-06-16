@@ -4,16 +4,16 @@ import routes from './route.js';
 import AppBar from './components/AppBar/AppBar';
 
 const HomePage = lazy(() =>
-  import('./pages/HomePage/index'),
+  import('./pages/HomePage/HomePage.js'),
 );
 
 const MoviesPage = lazy(() =>
-  import('./pages/MoviesPage/MoviesPage'),
+  import('./pages/MoviesPage/MoviesPage.js'),
 );
 
 const MovieDetailsPage = lazy(() =>
   import(
-    './pages/MovieDetailsPage/MovieDetailsPage'),
+    './pages/MovieDetailsPage/MovieDetailsPage.js'),
 );
 
 const App = () => (
